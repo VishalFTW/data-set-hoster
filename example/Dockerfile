@@ -21,6 +21,6 @@ COPY datasethoster /app/datasethoster
 
 # Change the COPY command below to copy any config files or other
 # modules you may need (e.g. config.py) to /app:
-COPY example/example.py example/main.py example/config.py example/uwsgi.ini /app/
+COPY example/example.py example/main.py example/config.py example/uwsgi.ini example/data.json /app/
 
 ENV FLASK_ENV=development
